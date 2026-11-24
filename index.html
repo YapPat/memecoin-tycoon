@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memecoin Tycoon: Crypto Game</title>
+<meta name="description" content="Memecoin Tycoon: an idle money and trading simulator game. Call the pump or the dump with fictional memecoins.">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f4f6fa; --text: #111319; --muted: #5b6275;
+    --line: #e2e6ee; --accent: #0a9f6a; --link: #0a7d55;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #07080b; --surface: #111319; --text: #f2f4f8; --muted: #9aa1b4;
+      --line: #232733; --accent: #2bf5a4; --link: #2bf5a4;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .logo {
+    width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center;
+    background: linear-gradient(135deg, #0b0d14, #1c1238); font-size: 28px;
+  }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  .updated { color: var(--muted); margin: 4px 0 24px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px; }
+  a { color: var(--link); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .accent { color: var(--accent); font-weight: 700; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+</style>
+
+  .shots { display:flex; gap:12px; overflow-x:auto; padding:8px 0; }
+  .shots img { height:420px; border-radius:18px; border:1px solid var(--line); }
+  .icon { width:72px; height:72px; border-radius:18px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="icon" src="images/icon.png" alt="">
+    <h1>Memecoin Tycoon<br><span style="font-size:18px;font-weight:600">Idle Money &amp; Trading Simulator</span></h1>
+  </header>
+  <p>Call the pump or the dump, catch airdrops, and grow a potato PC into a Galactic Exchange. Fake coins, real chaos, zero risk.</p>
+  <div class="shots">
+    <img src="screenshots/01-call-the-pump.png" alt="">
+    <img src="screenshots/02-bots-trade-for-you.png" alt="">
+    <img src="screenshots/03-potato-pc-to-island.png" alt="">
+    <img src="screenshots/04-mystery-bags.png" alt="">
+    <img src="screenshots/05-flex-your-pnl.png" alt="">
+    <img src="screenshots/06-months-of-goals.png" alt="">
+  </div>
+  <p><a href="support/">Support</a> · <a href="privacy/">Privacy policy</a></p>
+  <footer>Memecoin Tycoon is a game. Every coin, price and wallet in it is fictional. No real money or cryptocurrency is involved. Not financial advice.</footer>
+</main>
+</body>
+</html>
